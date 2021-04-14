@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Timer</class>
+ <widget class="QWidget" name="Timer">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>520</width>
+    <height>150</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>520</width>
+     <height>110</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="Preferred" vsizetype="Expanding">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>120</red>
+         <green>120</green>
+         <blue>120</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial Rounded MT Bold</family>
+     <pointsize>50</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string notr="true">0 : 0 : 0</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="closeButton">
+   <property name="geometry">
+    <rect>
+     <x>485</x>
+     <y>4</y>
+     <width>30</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>x</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="startButton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Start</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pauseButton">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>110</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Pause</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="resetButton">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>110</y>
+     <width>160</width>
+     <height>35</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Reset</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
